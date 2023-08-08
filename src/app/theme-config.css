@@ -1,0 +1,16 @@
+.radix-themes {
+  --default-font-family: "Work Sans";
+}
+
+.theme-two {
+  --default-font-family: var(--inter-font);
+}
+
+.theme-three {
+  --default-font-family: "Karla";
+}
+
+.theme-four {
+  --default-font-family: "Mona-Sans";
+}
+
