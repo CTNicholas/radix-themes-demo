@@ -14,7 +14,7 @@ export default function Home() {
     radius: "full",
     grayColor: "olive",
     panelBackground: "translucent",
-    scaling: "100%",
+    scaling: "105%",
   };
 
   const themeTwo: ThemeOptions = {
@@ -32,7 +32,7 @@ export default function Home() {
     radius: "large",
     grayColor: "sand",
     panelBackground: "translucent",
-    scaling: "100%",
+    scaling: "90%",
   };
 
   const themeFour: ThemeOptions = {
@@ -45,7 +45,7 @@ export default function Home() {
   };
 
   return (
-    <Grid width="100%" rows="1" columns="4">
+    <Grid width="100%" rows="1" columns="3">
       <Theme {...themeOne} className="theme-one">
         <Component appearance={appearance} setAppearance={setAppearance} />
       </Theme>
@@ -55,9 +55,9 @@ export default function Home() {
       <Theme {...themeThree} className="theme-three">
         <Component appearance={appearance} setAppearance={setAppearance} />
       </Theme>
-      <Theme {...themeFour} className="theme-four">
-        <Component appearance={appearance} setAppearance={setAppearance} />
-      </Theme>
+      {/*<Theme {...themeFour} className="theme-four">*/}
+      {/*  <Component appearance={appearance} setAppearance={setAppearance} />*/}
+      {/*</Theme>*/}
     </Grid>
   );
 }
