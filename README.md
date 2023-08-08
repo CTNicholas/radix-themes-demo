@@ -2,4 +2,4 @@ https://github.com/CTNicholas/radix-ui-theme-demo/assets/33033422/60581f5b-b58c-
 
 ## Basic Redux Themes demo
 
-It just came out! Simple Next.js demo.
+[Radix Themes](https://www.radix-ui.com/) just came out! Simple [Next.js](https://nextjs.org) demo.
